@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1658295611 source:c:\owais rashid\computer graphics_lab\rotation_test\main.cpp
+	<math.h>
+	<iostream>
+	<conio.h>
+	<graphics.h>
+

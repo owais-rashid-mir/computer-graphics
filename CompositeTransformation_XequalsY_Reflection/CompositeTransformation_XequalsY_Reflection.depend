@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1658294001 source:c:\owais rashid\computer graphics_lab\compositetransformation_xequalsy_reflection\main.cpp
+	<iostream>
+	<conio.h>
+	<graphics.h>
+	<math.h>
+	<dos.h>
+

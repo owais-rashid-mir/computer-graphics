@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1661315913 source:c:\owais rashid\computer graphics_lab\cohensutherland_lab\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<graphics.h>
+	<dos.h>
+

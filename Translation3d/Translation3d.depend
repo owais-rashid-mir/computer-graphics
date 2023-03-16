@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660713740 source:c:\owais rashid\computer graphics_lab\translation3d\main.cpp
+	<iostream>
+	<graphics.h>
+

@@ -1,0 +1,51 @@
+#include<iostream>
+#include<conio.h>
+#include<graphics.h>
+#include<math.h>
+
+using namespace std;
+
+int main()
+{
+	int gd=DETECT, gm;
+	int x, y, x1, x2, y1, y2, x3, y3, shear_f;
+
+	initgraph(&gd, &gm, "");
+	cout << "Enter first coordinate of line\n";
+	cin >> x >> y;
+
+	cout << "Enter 2nd coordinate of line\n:";
+	cin >> x1 >> y1;
+
+	cout << "Enter 3rd coordinate of line\n:";
+	cin >> x2 >> y2;
+
+	cout << "Enter the last coordinate of line\n:";
+	cin >> x3 >> y3;
+
+	line(x, y, x1, y1);
+	line(x1, y1, x2, y2);
+	line(x2, y2, x3, y3);
+	line(x3, y3, x, y);
+
+	cout << "Enter rotation angle: \n";
+	cin >> angle;
+
+	setcolor(RED);
+
+	c = cos(angle*3.14/180);
+	s = sin(angle*3.14/180);
+
+	x1 = floor(x1*c+y1*s);
+	y1 = floor(-x1*s+y1*c);
+	x2 = floor(x2*c+y1*s);
+	y2 = floor(-x2*s+y2*c);
+
+	line(x1, y1, x2, y2);
+
+	getch();
+
+	closegraph();
+
+	return 0;
+}

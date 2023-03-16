@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1656481819 source:c:\owais rashid\computer graphics\rotation\main.cpp
+	<iostream>
+	<conio.h>
+	<graphics.h>
+	<math.h>
+
+1656481819 source:c:\owais rashid\computer graphics_lab\rotation\main.cpp
+	<iostream>
+	<conio.h>
+	<graphics.h>
+	<math.h>
+
